@@ -153,6 +153,6 @@ The unsupported workaround is to disable the IIS Shared Configuration, run the i
 
 **IIS Express**
 
-   * .vs\config\applicationHost.config
+   * vs\config\applicationHost.config
 
 You can search for *aspnetcore.dll* in the *applicationHost.config* file. For IIS Express, the *applicationHost.config* file won't exist by default. The file is created at *{application root}\.vs\config* when you start any web application project in the Visual Studio solution.
